@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #d2cccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#Calci {
+    border: 2px solid #2b2828;
+    background-color: rgb(67, 63, 60);
+    padding: 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(249, 247, 247, 0.1);
+    flex-wrap: wrap;
+    margin-top: 20px;
+    }
+
+h1{
+    color: rgb(200, 186, 186);
+    margin-top: -5px;
+    margin-bottom: 11px;
+    padding-bottom: 0px;
+    text-shadow: #020000;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 15px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+button {
+    width: 48px;
+    height: 48px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 48px;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+button.op {
+    background-color: #1083f6;
+    color: aliceblue;
+}
+
+button.dot{
+    background-color: #f44336;
+    color: aliceblue;
+}
+
+button.reset {
+    background-color: #f44336;
+    color: rgb(255, 255, 255);
+}
+
+
+button.op1 {
+    width: 14%;
+    /* margin-left: 50px; */
+    box-sizing:content-box;
+    background-color: #ff0000;
+    color: white;
+}
+
+button.op2 {
+    width: 14%;
+    box-sizing:content-box;
+    background-color: #4caf50;
+    color: white;
+}
